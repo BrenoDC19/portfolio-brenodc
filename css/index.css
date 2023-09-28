@@ -1,0 +1,40 @@
+.main--content{
+    margin: 25px 20%;
+    background-color: rgba(245, 245, 245, .9);
+    padding: 1%;
+    border: 3px solid #bdbdbd;
+    border-radius: 20px;
+}
+
+.tittle{
+    color: #202020;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main--content div{
+    display: flex;
+}
+
+.img--inicio{
+    display: flex;
+    object-fit: cover;
+    width: 30%;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    background-size: 100%;
+}
+
+.sub--tittle{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #1b1b1b;
+}
+
+.about--me{
+    margin: 5%;
+}

@@ -1,0 +1,64 @@
+body{
+    background-image: url("/portifolio/imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #353535;
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.menu{
+    background-color: #b668ff;
+    padding: 20px 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    padding: 16px 50px;
+    transition: .5s;
+}
+
+.menu li a:hover{
+    background-color: #c68aff;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.main--content{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #353535;
+    padding: 15px;
+    color: #858585;
+    align-items: center;
+    font-size: .8em;
+}
+
+.footer--logo{
+    color: #f5f5f5;
+    font-size: 2em;
+}
+
+.footer--logo:not(:first-child){
+    margin-left: 10px;
+}
