@@ -1,0 +1,39 @@
+.main--content{
+    margin: 20px 20%;
+    background-color: rgba(245, 245, 245, .9);
+    width: 40%;
+    align-self: center;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.main--content label, .form--btn{
+    display: block;
+    margin: 1.5em 10% 0;
+}
+
+.text--name, .text--email, .text--message{
+    display: block;
+    font-size: 18px;
+    margin: 1em 10% 0;
+    width: 75%;
+}
+
+.text--message{
+    height: 6em;
+    resize: none;
+}
+
+.form--btn{
+    padding: 1rem 1.5rem;
+    background-color: #b668ff;
+    border: 2px solid #6a5083;
+    border-radius: 10px;
+    color: #f5f5f5;
+    transition: .5s;
+}
+
+.form--btn:hover{
+    cursor: pointer;
+    background-color: #c68aff;
+}
